@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Server-rendered charts</title>
+    <style>
+      .chart-container {
+        margin: 10px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Server-rendered charts</h1>
+
+    <div>Charts are rendered with <a href="https://github.com/mozilla/metrics-graphics/">metrics-graphics</a></div>
+    <div class="chart-container">
+      <img src="chart.svg?type=area&data=[1,2,3,4]&annotate=[something else]&theme=blue">
+    </div>
+
+    <div class="chart-container">
+      <img src="chart.svg?type=area&data=[1,2,3,4]&annotate=[something1]&theme=blue">
+    </div>
+
+    <div class="chart-container">
+      <img src="chart.svg?type=area&data=[1,2,3,4]&annotate=[somethingw]&theme=blue">
+    </div>
+
+    <div class="chart-container">
+      <img src="chart.svg?type=area&data=[1,2,3,54]&annotate=[somethingw]&theme=blue">
+    </div>
+
+    <div class="chart-container">
+      <img src="chart.svg?type=area&data=[1,52,3,4]&annotate=[somethingw]&theme=blue">
+    </div>
+
+    <div class="chart-container">
+      <img src="chart.svg?type=area&data=[1,26,3,4]&annotate=[somethingw]&theme=blue">
+    </div>
+
+    <div class="chart-container">
+      <img src="chart.svg?type=area&data=[1,2,37,4]&annotate=[somethingw]&theme=blue">
+    </div>
+
+  </body>
+</html>
