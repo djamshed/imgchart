@@ -1,12 +1,18 @@
 {
-  "name": "openshift-cartridge-nodejs-template",
-  "version": "1.0.1",
-  "description": "Custom Node.js cartridge for OpenShift - sample application",
-  "private": true,
+  "name": "imgchart",
+  "version": "1.0.0",
+  "description": "chart API that returns content for img.src",
   "main": "start.js",
   "scripts": {
     "start": "node --use_strict start.js"
   },
-  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
-  "license": "ISC"
+  "author": "Djam Saidmuradov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.8.3",
+    "lodash": "^4.16.6",
+    "metrics-graphics": "git+ssh://git@github.com/djamshed/metrics-graphics.git"
+  }
 }
