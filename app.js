@@ -10,6 +10,7 @@ const createRandomData = (type) => {
 
 // parses URL-encoded color
 const parseColor = (rawColor) => {
+  // TODO: check if rawColor is a color
   return rawColor ||
           ['#dfc27d', '#bf812d', '#80cdc1', '#d53e4f', '#f46d43', '#fdae61',
           '#abdda4', '#66c2a5', '#3288bd', '#35978f'][_.random(0,9)]
@@ -44,7 +45,7 @@ const parseEncodedUrlData = (rawData, ...params) => {
     parsed = JSON.parse('[' + rawData + ']');
   }
   catch(e) {
-    // console.log('error parsing data', rawData);
+    console.log('error parsing data', rawData);
     // not able to parse rawData (bad format, etc)
     return [];
   }
