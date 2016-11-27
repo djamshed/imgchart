@@ -163,7 +163,11 @@ const parseParams = (params) => {
 
   // if no chart type is defined, create random data for line chart
   if (!seriesObject) {
-    Object.assign(config, {data: createRandomData('line'), chart_type: 'line'});
+    Object.assign(config, {
+      data: createRandomData('line'),
+      colors: [parseColor(params['color'])],
+      chart_type: 'line'
+    });
   }
 
   // leave space for legend text
