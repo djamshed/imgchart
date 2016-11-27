@@ -57,7 +57,7 @@ const parseEncodedUrlData = (rawData, ...params) => {
       // initialize parameters
       params.forEach( (p, _i) => {
         // the first param's default value is index (typically, X), set other params (Y, Z) to zero
-        item[p] = _i === 0 ? index : 0;
+        item[p] = _i === 0 ? index + '' : 0;
       });
 
       if (Array.isArray(rawItem)) {
@@ -66,9 +66,9 @@ const parseEncodedUrlData = (rawData, ...params) => {
           // single value, use it as Y
           case 1: item[params[1]] = rawItem[0]; break;
           // two values, use as X and Y
-          case 2: item[params[0]] = rawItem[0]; item[params[1]] = rawItem[1]; break;
+          case 2: item[params[0]] = rawItem[0] + ''; item[params[1]] = rawItem[1]; break;
           // three values, use as X, Y and Z
-          case 3: item[params[0]] = rawItem[0]; item[params[1]] = rawItem[1]; item[params[2]] = rawItem[2]; break;
+          case 3: item[params[0]] = rawItem[0] + ''; item[params[1]] = rawItem[1]; item[params[2]] = rawItem[2]; break;
         }
       }
       // value is a number, it belongs to params[1]
