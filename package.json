@@ -1,7 +1,7 @@
 {
   "name": "imgchart",
   "version": "1.0.0",
-  "description": "chart API that returns content for img.src",
+  "description": "Chart API that returns SVG content through URL",
   "main": "start.js",
   "scripts": {
     "start": "node --use_strict start.js"
