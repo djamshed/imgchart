@@ -69,7 +69,7 @@ or
 <img src="http://imgchart-tinyapps.rhcloud.com/chart.svg&line">
 ```
 
-![Line chart with random data](//imgchart-tinyapps.rhcloud.com/chart.svg?line "Line chart with random data")
+![Line chart with random data](<http://imgchart-tinyapps.rhcloud.com/chart.svg?line> "Line chart with random data")
 
 
 #### Scatterplot chart with random data
@@ -80,7 +80,7 @@ or
 <img src="http://imgchart-tinyapps.rhcloud.com/chart.svg&points">
 ```
 
-![Scatterplot chart with random data](//imgchart-tinyapps.rhcloud.com/chart.svg?points "Scatterplot chart with random data")
+![Scatterplot chart with random data](<http://imgchart-tinyapps.rhcloud.com/chart.svg?points> "Scatterplot chart with random data")
 
 
 
@@ -91,7 +91,7 @@ or
 <img src="http://imgchart-tinyapps.rhcloud.com/chart.svg?line=1,5,20,5">
 ```
 
-![Line chart with predefined data](//imgchart-tinyapps.rhcloud.com/chart.svg?line=1,5,20,5 "Line chart with predefined data")
+![Line chart with predefined data](<http://imgchart-tinyapps.rhcloud.com/chart.svg?line=1,5,20,5> "Line chart with predefined data")
 
 
 #### Multiple lines with predefined data
@@ -101,7 +101,7 @@ or
 <img src="imgchart-tinyapps.rhcloud.com/chart.svg?line1=1,5,20,5&line2=10,30,10,20">
 ```
 
-![multiple lines](//imgchart-tinyapps.rhcloud.com/chart.svg?line1=1,5,20,5&line2=10,30,10,20 "multiple lines")
+![multiple lines](<http://imgchart-tinyapps.rhcloud.com/chart.svg?line1=1,5,20,5&line2=10,30,10,20> "multiple lines")
 
 
 #### Multiple lines with predefined color and legend (random data)
@@ -111,7 +111,7 @@ or
 <img src="imgchart-tinyapps.rhcloud.com/chart.svg?line1=&line2=&color1=navy&color2=salmon&legend1=revenue&legend2=expenses">
 ```
 
-![multiple lines](//imgchart-tinyapps.rhcloud.com/chart.svg?line1=&line2=&color1=salmon&color2=teal&legend1=revenue&legend2=expenses "multiple lines with colors and legend")
+![multiple lines](<http://imgchart-tinyapps.rhcloud.com/chart.svg?line1=&line2=&color1=salmon&color2=teal&legend1=revenue&legend2=expenses> "multiple lines with colors and legend")
 
 #### Custom x-values
 <http://imgchart-tinyapps.rhcloud.com/chart.svg?line=[2010,10],[2013,50],[2016,40]>
@@ -120,7 +120,7 @@ or
 <img src="http://imgchart-tinyapps.rhcloud.com/chart.svg?line=[2010,10],[2013,50],[2016,40]">
 ```
 
-![custom x values](<//imgchart-tinyapps.rhcloud.com/chart.svg?line=[2010,10],[2013,50],[2016,40]> "custom x values")
+![custom x values](<http://imgchart-tinyapps.rhcloud.com/chart.svg?line=[2010,10],[2013,50],[2016,40]> "custom x values")
 
 #### Markers
 <http://imgchart-tinyapps.rhcloud.com/chart.svg?line=1,5,20,5&markers=[1,'before X'],[2,'after X']>
