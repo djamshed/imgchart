@@ -95,7 +95,7 @@ or
 
 
 #### Multiple lines with predefined data
-http://imgchart-tinyapps.rhcloud.com/chart.svg?line1=1,5,20,5&line2=10,30,10,20&color1=red&color2=green
+http://imgchart-tinyapps.rhcloud.com/chart.svg?line1=1,5,20,5&line2=10,30,10,20
 or
 ```html
 <img src="imgchart-tinyapps.rhcloud.com/chart.svg?line1=1,5,20,5&line2=10,30,10,20">
@@ -105,10 +105,10 @@ or
 
 
 #### Multiple lines with predefined color and legend (random data)
-http://imgchart-tinyapps.rhcloud.com/chart.svg?line1=&line2=&color1=navy&color2=orange&legend1=revenue&legend2=expenses
+http://imgchart-tinyapps.rhcloud.com/chart.svg?line1=&line2=&color1=salmon&color2=teal&legend1=revenue&legend2=expenses
 or
 ```html
-<img src="imgchart-tinyapps.rhcloud.com/chart.svg?line1=&line2=&color1=navy&color2=salmon&legend1=revenue&legend2=expenses">
+<img src="http://imgchart-tinyapps.rhcloud.com/chart.svg?line1=&line2=&color1=salmon&color2=teal&legend1=revenue&legend2=expenses">
 ```
 
 ![multiple lines](<http://imgchart-tinyapps.rhcloud.com/chart.svg?line1=&line2=&color1=salmon&color2=teal&legend1=revenue&legend2=expenses> "multiple lines with colors and legend")
